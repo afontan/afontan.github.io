@@ -26,8 +26,9 @@ function removeInput(){
 
 async function getInputValue(){
   
-  const value = document.querySelector("input").value;
-  if(value.toLowerCase() === "help"){
+  const value = document.querySelector("input").value.toLowerCase();
+
+  if(value === "help"){
     Console.validCommand(app, value);
     
     Console.createCode(app, "github", "- My github page with my projects. Follow me there ;)");
