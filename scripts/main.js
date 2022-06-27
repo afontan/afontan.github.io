@@ -45,7 +45,7 @@ async function getInputValue(){
     Console.validCommand(app, value);
     Console.createText(app, "Hi!, I'm Alejandro Fontán")
     Console.createText(app, "I'm a Fullstack/Cloud engineer with 7+ years of experience. I've worked with <span class='blue'>Java, Kotlin, Go, Javascript, Vue, Angular, React, MySQL, Postgres, Docker, Kubernetes, Flutter, and even more x)</span>")
-    Console.createText(app, "I'm familiar with CI/CD tools like Jenkins, CircleCI, Spinnaker, AWS, GCP")
+    Console.createText(app, "I'm familiar with CI/CD, monitoring and infra tools like Jenkins, CircleCI, Spinnaker, Datadog, New Relic, terraform, AWS, GCP")
   }
   else if(value === "contact"){
     Console.validCommand(app, value);
