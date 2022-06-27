@@ -50,8 +50,10 @@ async function getInputValue(){
   else if(value === "contact"){
     Console.validCommand(app, value);
     Console.createText(app, "<a href='https://github.com/afontan' target='_blank'><i class='fab fa-github white'></i> github.com/afontan</a>")
-    Console.createText(app, "<a href='https://www.linkedin.com/in/alejandro-font%C3%A1n/' target='_blank'><i class='fab fa-linkedin-in white'></i> linkedin.com/in/alejandro-fontán</a>")
+    Console.createText(app, "<a href='https://www.hackerrank.com/afontan91?hr_r=1' target='_blank'><i class='fa-solid fa-code white'></i> hackerrank.com/afontan91</a>")
+    Console.createText(app, "<a href='https://leetcode.com/afontan/' target='_blank'><i class='fa-solid fa-code white'></i> leetcode.com/afontan</a>")
     Console.createText(app, "<a href='https://www.twitter.com/a_fontan/' target='_blank'><i class='fab fa-twitter white'></i> twitter.com/a_fontan/</a>")
+    Console.createText(app, "<a href='https://www.linkedin.com/in/alejandro-font%C3%A1n/' target='_blank'><i class='fab fa-linkedin-in white'></i> linkedin.com/in/alejandro-fontán</a>")
   }
   
   else if(value === "clear"){
